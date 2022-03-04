@@ -1,0 +1,80 @@
+/* ./assets/css/tailwind.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+template{
+
+    font-size: 14px;
+    color: #0a0a0a;
+    font-weight: 400;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+  
+  }
+
+  .primary-color{
+    background-color: #da2b2a;
+  }
+  .primary-text{
+color: #da2b2a;
+  }
+
+  .secondary-color{
+    background-color: #f3f2ee;
+  }
+  .form-color{
+    background: #009ca6;
+  }
+  .form-button:active{
+    background: #009ca6;
+  }
+  
+  .el-dropdown-link {
+    cursor: pointer;
+    color: #000;
+  }
+   .el-dropdown-link:hover{
+    color: #009ca6;
+  }
+  .el-icon-arrow-down {
+    font-size: 20px;
+  }
+  .el-icon-arrow-down {
+    font-size: 20px;
+  }
+  .el-dropdown-menu{
+    background-color: white !important;
+    
+  }
+  .dropdown-item{
+    font-size: 18px; 
+    color: #000;
+  }
+
+  .dropdown-item:hover {
+    background-color: #f3f2ee !important;
+    color: #000 !important;
+}
+
+.bg{
+  background: url("https://nobarriersusa.org/wp-content/uploads/2020/02/questions-ask-nonprofit-organization-6.jpg")
+   no-repeat center center/cover; position: absolute; top: 0%; left: 0%; width: 100vw; height: 100vh; z-index: -1; position: fixed;
+}
+
+.bg-home{
+  background: url("https://www.savethechildren.org/content/dam/usa/images/global-programs/emergency/syria-children-in-conflict-ch1308423-hero.jpg/_jcr_content/renditions/original.img.jpg")
+   no-repeat center center/cover; position: absolute; top: 0%; left: 0%; width: 100vw; height: 100vh; z-index: -1;
+}
+
+.button-bg{
+  background-color: #d1ccbd;
+}
+.bg-body{
+  background-color: #4a4f53;
+}
+
+.bg-news-color{
+  background-color: #f1f0eb;
+}
