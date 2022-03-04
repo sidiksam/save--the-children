@@ -10,7 +10,7 @@
           <div><p class="text-3xl font-bold">What Is the Current Situation for Children in Conflict in Ukraine? </p>
           <p class="py-4">The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
            <p class="pt-3">
-              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">Learn More</button>
+              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">READ MORE</button>
             </p>
           </div>
         </div>
@@ -20,7 +20,7 @@
           <div><p class="text-3xl font-bold">What Is the Current Situation for Children in Conflict in Ukraine? </p>
           <p class="py-4">The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
            <p class="pt-3">
-              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">Learn More</button>
+              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">READ MORE</button>
             </p>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <div><p class="text-3xl font-bold">What Is the Current Situation for Children in Conflict in Ukraine? </p>
           <p class="py-4">The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
            <p class="pt-3">
-              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">Learn More</button>
+              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">READ MORE</button>
             </p>
           </div>
         </div>

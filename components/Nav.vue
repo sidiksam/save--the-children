@@ -2,11 +2,11 @@
 <template>
   <div class="h-auto primary-color">
     <section class="secondary-color drop-shadow-md">
-      <nav id="nav" class="pt-8">
+      <nav id="nav" class="">
         <div>
           <div>
             <div class="container mx-auto">
-              <div class="mx-28 pb-10 flex-wrap flex items-center justify-between">
+              <div class="mx-28  flex-wrap flex items-center justify-between">
                 <div>
                   <nuxt-link to="/">
                     <div class="md:mt-2 -ml-1 flex items-center">
