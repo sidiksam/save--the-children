@@ -65,7 +65,7 @@ color: #da2b2a;
 
 .bg-home{
   background: url("https://www.savethechildren.org/content/dam/usa/images/global-programs/emergency/syria-children-in-conflict-ch1308423-hero.jpg/_jcr_content/renditions/original.img.jpg")
-   no-repeat center center/cover; position: absolute; top: 0%; left: 0%; width: 100vw; height: 100vh; z-index: -1;
+   no-repeat center; object-fit: cover; position: absolute;  top:6%; left: 0%;  width: 100%; height: 100vh; z-index: -1;
 }
 
 .button-bg{
@@ -77,4 +77,11 @@ color: #da2b2a;
 
 .bg-news-color{
   background-color: #f1f0eb;
+}
+
+.footer-text{
+  color: #c9cbcc;
+}
+.copy-right{
+  color: #818487;
 }

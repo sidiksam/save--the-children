@@ -7,7 +7,7 @@
             class="text-4xl pt-5  pb-5 font-bold"
           >Your support today helps children who need it the most.</p>
         </div>
-        <div class="flex flex-wrap space-x-4 mb-12">
+        <div class="flex flex-wrap space-x-4 mb-32">
           <!-- card 1 -->
           <div class="bg-white w-96 h-96 cursor-pointer pb-6">
             <p>
@@ -43,7 +43,7 @@
               <p>SHOP THE GIFT CATALOG</p>
             </div>
             <p class="pt-2">
-              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">Read More</button>
+              <button class="form-color py-2 px-16 p rounded text-xl font-bold text-white">READ MORE</button>
             </p>
           </div>
          

@@ -2,7 +2,8 @@
   <div>
     <Nav />
   <Home-page/>
-  </div>
+  <Footer-com />
+    </div>
 </template>
 
 <script>
