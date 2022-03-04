@@ -2,11 +2,11 @@
 <template>
   <div class="h-auto primary-color">
     <section class="secondary-color drop-shadow-md">
-      <nav id="nav" class="">
+      <nav id="nav" class>
         <div>
           <div>
             <div class="container mx-auto">
-              <div class="mx-28  flex-wrap flex items-center justify-between">
+              <div class="mx-28 flex-wrap flex items-center justify-between">
                 <div>
                   <nuxt-link to="/">
                     <div class="md:mt-2 -ml-1 flex items-center">
@@ -20,14 +20,14 @@
                           preserveAspectRatio="xMidYMid meet"
                         >
                           <style type="text/css">
-  .fil0 {
-    fill: black;
-    fill-rule: nonzero;
-  }
-  .fil1 {
-    fill: #da291c;
-    fill-rule: nonzero;
-  }
+                          .fil0 {
+                            fill: black;
+                            fill-rule: nonzero;
+                          }
+                          .fil1 {
+                            fill: #da291c;
+                            fill-rule: nonzero;
+                          }
                           </style>
                           <path
                             class="fil0"

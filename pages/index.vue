@@ -2,7 +2,7 @@
   <div>
     <Nav />
   <Home-page/>
-  <Footer-com />
+  <!-- <Footer-com /> -->
     </div>
 </template>
 
