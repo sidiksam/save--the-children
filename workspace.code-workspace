@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "save-the-children",
+			"path": "."
+		},
+		{
+			"name": "assets",
+			"path": "E:\\Consulting-Firm-master\\assets"
+		}
+	],
+	"settings": {
+		"html.format.wrapLineLength": 80
+	}
+}
