@@ -1,22 +1,28 @@
-<template>
+<template >
   <div>
     <div class="primary-text text-2xl font-bold p-3">1. CHOOSE YOUR GIFT TYPE</div>
     <!-- srction1 -->
 
-    <section>
+    <section >
       <div class="flex justify-center p-4">
         <p>
-          <button class="button-bg py-1 px-16 mx-1 rounded font-bold text-2xl form-button">MONTHLY</button>
+          <button
+            class="button-bg py-1 px-16 mx-1 rounded font-bold text-2xl form-button"
+            @click="monthly"
+          >MONTHLY</button>
         </p>
         <p>
-          <button class="button-bg py-1 px-16 rounded mx-1 font-bold text-2xl form-button">ONE-TIME</button>
+          <button
+            class="button-bg py-1 px-16 rounded mx-1 font-bold text-2xl form-button"
+            @click="onTime"
+          >ONE-TIME</button>
         </p>
       </div>
     </section>
     <div class="primary-text text-2xl font-bold p-3">2. CHOOSE YOUR GIFT AMOUNT</div>
 
     <!-- Monthly -->
-    <section>
+    <section v-show="state == 1">
       <div class="flex flex-wrap p-4">
         <p>
           <button
@@ -51,7 +57,7 @@
       </div>
     </section>
     <!-- one time -->
-    <section>
+    <section v-show="state == 2">
       <div class="flex flex-wrap p-4">
         <p>
           <button
@@ -88,10 +94,14 @@
     <!-- Other -->
     <section>
       <p class="flex items-center px-4 pb-3">
-        <button class="button-bg py-1 px-6 mx-1 rounded font-medium text-2xl m-1">Other</button>
+        <button
+          class="button-bg py-1 px-8 mx-1 rounded font-medium text-2xl m-1"
+          @click="otherFun"
+        >Other</button>
         <el-input
+          v-show="other == true"
           v-model="input"
-          class="py-2 rounded flex items-center pl-5"
+          class="py-2 rounded flex items-center pl-5 pr-1"
           type="text"
           placeholder="Please input"
         />
@@ -112,7 +122,7 @@
               </el-form-item>
             </div>
             <div>
-              <div class="flex pl-2">
+              <div class="flex ">
                 <div class="md:w-1/4">
                   <!-- title -->
                   <el-form-item label="Title" prop="title">
@@ -133,7 +143,7 @@
                   </el-form-item>
                 </div>
                 <!-- first name -->
-                <div class="w-full pl-2">
+                <div class="w-full ">
                   <el-form-item label="First Name" prop="givenNames" class>
                     <el-input v-model="ruleForm.givenNames" class placeholder="First Name"></el-input>
                   </el-form-item>
@@ -141,25 +151,25 @@
               </div>
             </div>
             <!-- last name -->
-            <div class="w-full pl-2">
+            <div class="w-full ">
               <el-form-item label="Last Name" prop="lastName" class>
                 <el-input v-model="ruleForm.lastName" class placeholder="Last Name"></el-input>
               </el-form-item>
             </div>
             <!-- Address -->
-            <div class="w-full pl-2">
+            <div class="w-full ">
               <el-form-item label="Address" prop="address" class>
                 <el-input v-model="ruleForm.address" class placeholder="Address"></el-input>
               </el-form-item>
             </div>
             <!-- City -->
-            <div class="w-full pl-2">
+            <div class="w-full ">
               <el-form-item label="City" prop="town" class>
                 <el-input v-model="ruleForm.town" class placeholder="City"></el-input>
               </el-form-item>
             </div>
             <!-- district -->
-            <div class="w-full pl-2">
+            <div class="w-full ">
               <el-form-item label="District" prop="district">
                 <el-select
                   v-model="ruleForm.district"
@@ -177,7 +187,7 @@
                 </el-select>
               </el-form-item>
             </div>
-            <div class="w-full pl-2">
+            <div class="w-full ">
               <el-form-item label="Phone Number" prop="phone">
                 <el-input type="phone" placeholder="Phone Number" v-model="ruleForm.phone">
                   <p class="w-4 -ml-4" slot="prepend">+232</p>
@@ -205,7 +215,7 @@
         <div
           class="button-bg mx-1 rounded font-bold text-2xl form-button flex items-center px-3 py-2"
         >
-          <div class="flex items-center">
+          <div class="flex items-center" @click="creditCard">
             <img class="pr-2" src="~/assets/images/visa_small.gif" alt />
             <img class="pr-2" src="~/assets/images/mastercd_small.gif" alt />
             <img class="pr-2" src="~/assets/images/amex_small.gif" alt />
@@ -213,7 +223,7 @@
           </div>
         </div>
         <div class="button-bg mx-1 rounded font- text-2xl form-button flex items-center px-3">
-          <div class="flex items-center">
+          <div class="flex items-center" @click="payPal">
             <img class="pr-2" src="~/assets/images/paypal-logo.png" alt />
             <p>PayPal</p>
           </div>
@@ -221,51 +231,89 @@
       </div>
     </section>
     <!-- Credit card and pay pal -->
-    <section>
-
-      <div class="container mx-auto md:px-5  ">
-
-
-
+    <section >
+      <div class="container mx-auto md:px-5">
         <el-form :model="ruleForm" :rules="rules" ref="ruleForm" @submit.prevent.native>
-<!--  credit number-->
-             <div class=" w-full pl-2">
-              <el-form-item label="CREDIT CARD NUMBER" prop="creditCard" class>
-                <el-input v-model="ruleForm.creditCard" class placeholder="Credit card number"></el-input>
-              </el-form-item>
-            </div>
-          <!-- CCV -->
-          <div class="flex items-center">
-            <div class=" pl-2">
-              <el-form-item label="CCV" prop="ccv" class>
-                <el-input v-model="ruleForm.ccv" class placeholder="CCV"></el-input>
-              </el-form-item>
-            </div>
-            <!-- .Month -->
-            <div>
-                <div class="pl-2 ">
-              <el-form-item label="EXPIRATION DATE" prop="month">
-                <el-date-picker class="" v-model="ruleForm.month" type="month" placeholder="Pick a month"></el-date-picker>
-              </el-form-item>
-            </div>
-            </div>
-            <!-- Year -->
-            <div class=" pl-2 pt-10 ">
-              <el-form-item class="" label prop="year">
-                <el-date-picker v-model="ruleForm.year" type="year" placeholder="Pick a month"></el-date-picker>
-              </el-form-item>
+          <div>
+            <!--  credit number-->
+            <div v-show="credit_card == true">
+              <div class="w-full ">
+                <el-form-item label="CREDIT CARD NUMBER" prop="creditCard" class>
+                  <el-input v-model="ruleForm.creditCard" class placeholder="Credit card number"></el-input>
+                </el-form-item>
+              </div>
+              <!-- CCV -->
+              <div class="flex items-center">
+                <div class="">
+                  <el-form-item label="CCV" prop="ccv" class>
+                    <el-input v-model="ruleForm.ccv" class placeholder="CCV"></el-input>
+                  </el-form-item>
+                </div>
+                <!-- .Month -->
+                <div>
+                  <div class="pl-2">
+                    <el-form-item label="EXPIRATION DATE" prop="month">
+                      <el-date-picker
+                        class
+                        v-model="ruleForm.month"
+                        type="month"
+                        placeholder="Pick a month"
+                      ></el-date-picker>
+                    </el-form-item>
+                  </div>
+                </div>
+                <!-- Year -->
+                <div class="pl-2 pt-10">
+                  <el-form-item class label prop="year">
+                    <el-date-picker v-model="ruleForm.year" type="year" placeholder="Pick a month"></el-date-picker>
+                  </el-form-item>
+                </div>
+              </div>
             </div>
           </div>
+          <!-- Aggrement -->
+          <div class="flex items-center">
+            <p class="pr-3">
+              <input type="checkbox" v-model="checked" class="text-3xl" />
+            </p>
+            <p>I want to help even more by covering the cost of the transaction fee on my donation. My total will be le25,000</p>
+          </div>
+          <div>
+            <p class="px-3 pt-3">
+              See if your employer will match your donation!
+              Enter the name of your company
+            </p>
+          </div>
         </el-form>
+
+        <div class=" pt-8 ">
+            <nuxt-link to="#">
+              <button class="primary-color  py-2 w-full rounded text-lg font-bold text-white">Donate Monthly</button>
+            </nuxt-link>
+          </div>
+          <!-- Parahraph -->
+          <div class="text-sm">
+            <p class="pt-8">Once you donate, an account with a temporary password will be created for you in our Supporter Center. Simply log in to securely view this as well as any future gifts and so much more. You'll also start receiving email news of your generosity in action, including inspiring children's stories, emergency alerts and ways to get involved.</p>
+            <p class="pt-8">By making a donation, you give us permission to use your gift, when applicable, combined with those of other donors, as part of our matching gift fund to inspire more donors like you to support our mission. Whether or not your gift is matched, it will still be tax deductible to the full extent allowable by IRS regulations in the same year it was made. If you donate after December 31, your donation will be matched in the following year.</p>
+            <p class="pt-8">For monthly gifts only: By providing my credit card information, I authorize Save the Children Federation, Inc. to charge my credit card on a recurring basis in the amount indicated above. I understand that this authorization shall remain in effect until I notify Save the Children at least 30 days prior to the upcoming charge that I wish to end this agreement. I understand my credit card issuer may impose additional requirements and I should contact the credit card issuer for further information. A record of my contributions will appear on my billing statement.</p>
+            <p class="pt-8">Monthly gifts will be matched for the first monthly installment only. If we meet our match goal prior to receiving your one-time or monthly donation, your donation will not be matched but will still go to support our programs.</p>
+            <p class="pt-8">Save the Children’s Federal Tax ID Number: +232-73-123-456</p>
+          </div>
       </div>
     </section>
+   
   </div>
+  
 </template>
 
 <script>
 export default {
   data() {
     return {
+      state: 1,
+      other: false,
+      credit_card: true,
+      pay_pay: false,
       input: '',
       ruleForm: {
         email: '',
@@ -349,12 +397,34 @@ export default {
       }
     },
   },
-  methods:{
-    
-
-  }
+  methods: {
+    monthly() {
+      this.state = 1
+      this.other = false
+    },
+    onTime() {
+      this.state = 2
+      this.other = false
+    },
+    otherFun() {
+      this.other = true
+    },
+    creditCard() {
+      this.credit_card = true
+    },
+    payPal() {
+      this.credit_card = false
+    },
+  },
 }
 </script>
 
-<style>
+<style scoped>
+input[type='checkbox'] {
+  width: 30px;
+  height: 30px;
+}
+input[type='checkbox']:checked {
+  color: #da2b2a;
+}
 </style>

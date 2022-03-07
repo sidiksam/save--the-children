@@ -1,7 +1,7 @@
 <template>
  <div >
   <Sub-nav />
-     <DonationForm />
+     <DonationForm class="mb-24" />
  </div>
 </template>
 
