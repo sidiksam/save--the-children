@@ -1,6 +1,8 @@
 <template>
   <div class>
-    <section class="bg "></section>
+    <section class=" ">
+       <img src="~/assets/images/cna2.jpeg" alt="" class="w-full h-screen object-cover  bg-no-repeat bg bg-fixed ">
+    </section>
     <div>
       <div class="container mx-auto">
         <div class="mx-28 pb-6 items-center">

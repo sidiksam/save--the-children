@@ -115,7 +115,7 @@
     <section>
       <div class="flex flex-wrap p-4">
         <div class="md:w-full flex-wrap px-1">
-          <el-form :model="ruleForm" :rules="rules" ref="ruleForm" @submit.prevent.native>
+          <el-form ref="ruleForm" :model="ruleForm"  :rules="rules"  @submit.prevent.native>
             <div class>
               <el-form-item label="Email" prop="email" class>
                 <el-input v-model="ruleForm.email" class placeholder="Email"></el-input>
@@ -127,15 +127,15 @@
                   <!-- title -->
                   <el-form-item label="Title" prop="title">
                     <el-select
-                      class="w-full"
                       v-model="ruleForm.title"
+                      class="w-full"
                       placeholder="Title"
                       filterable
                     >
                       <el-option
-                        class="text-sm"
                         v-for="(row, index) in titles"
                         :key="`title-${index}`"
+                        class="text-sm"
                         :value="row"
                         :label="row"
                       ></el-option>
@@ -178,9 +178,9 @@
                   class="w-full"
                 >
                   <el-option
-                    class="text-sm"
                     v-for="(row, index) in districts"
                     :key="`district-${index}`"
+                    class="text-sm"
                     :value="row"
                     :label="row"
                   ></el-option>
@@ -189,8 +189,8 @@
             </div>
             <div class="w-full ">
               <el-form-item label="Phone Number" prop="phone">
-                <el-input type="phone" placeholder="Phone Number" v-model="ruleForm.phone">
-                  <p class="w-4 -ml-4" slot="prepend">+232</p>
+                <el-input  v-model="ruleForm.phone" type="phone"  placeholder="Phone Number">
+                  <p  slot="prepend" class="w-4 -ml-4">+232</p>
                 </el-input>
               </el-form-item>
             </div>
@@ -233,7 +233,7 @@
     <!-- Credit card and pay pal -->
     <section >
       <div class="container mx-auto md:px-5">
-        <el-form :model="ruleForm" :rules="rules" ref="ruleForm" @submit.prevent.native>
+        <el-form ref="ruleForm" :model="ruleForm"  :rules="rules"  @submit.prevent.native>
           <div>
             <!--  credit number-->
             <div v-show="credit_card == true">
@@ -254,8 +254,8 @@
                   <div class="pl-2">
                     <el-form-item label="EXPIRATION DATE" prop="month">
                       <el-date-picker
-                        class
                         v-model="ruleForm.month"
+                        class
                         type="month"
                         placeholder="Pick a month"
                       ></el-date-picker>
@@ -274,7 +274,7 @@
           <!-- Aggrement -->
           <div class="flex items-center">
             <p class="pr-3">
-              <input type="checkbox" v-model="checked" class="text-3xl" />
+              <input type="checkbox"  class="text-3xl" />
             </p>
             <p>I want to help even more by covering the cost of the transaction fee on my donation. My total will be le25,000</p>
           </div>
@@ -424,7 +424,5 @@ input[type='checkbox'] {
   width: 30px;
   height: 30px;
 }
-input[type='checkbox']:checked {
-  color: #da2b2a;
-}
+
 </style>

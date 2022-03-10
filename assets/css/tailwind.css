@@ -32,10 +32,10 @@ color: #da2b2a;
   
   .el-dropdown-link {
     cursor: pointer;
-    color: #000;
+    color: #ffff;
   }
    .el-dropdown-link:hover{
-    color: #009ca6;
+    color: #f5d34c;
   }
   .el-icon-arrow-down {
     font-size: 20px;
@@ -58,13 +58,13 @@ color: #da2b2a;
 }
 
 .bg{
-  background: url("https://nobarriersusa.org/wp-content/uploads/2020/02/questions-ask-nonprofit-organization-6.jpg")
-   no-repeat center center/cover; position: absolute; top: 0%; left: 0%; width: 100vw; height: 100vh; z-index: -1; position: fixed;
+ 
+   background: no-repeat;; position: absolute; top: 0%; left: 0%;  z-index: -1; position: fixed;
 }
 
 .bg-home{
-  background: url("https://www.savethechildren.org/content/dam/usa/images/global-programs/emergency/syria-children-in-conflict-ch1308423-hero.jpg/_jcr_content/renditions/original.img.jpg")
-   no-repeat center; object-fit: cover; position: absolute;  top:6%; left: 0%;  width: 100%; height: 100vh; z-index: -1;
+ 
+   object-fit: cover; ;
 }
 
 .button-bg{
@@ -82,6 +82,6 @@ color: #da2b2a;
   color: #c9cbcc;
 }
 .copy-right{
-  color: #818487;
+  color: #aaafb4;
 }
-
+/* slides */

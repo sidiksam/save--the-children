@@ -34,7 +34,7 @@
               </nuxt-link>
             </div>
             <!-- org -->
-            <div class="w-1/3 px-2">
+            <!-- <div class="w-1/3 px-2">
               <div class="flex">
                 <nuxt-link to="#">
                   <div>
@@ -173,27 +173,27 @@
                   </p>
                 </div>
               </nuxt-link>
-            </div>
+            </div> -->
             <!-- contact ur -->
             <div class="w-1/3 pl-10">
               <nuxt-link to="#">
-                <p class="text-xl">Contact Us</p>
+                <p class="text-xl ">Contact Us</p>
               </nuxt-link>
               <p class="border-b-2 w-1/4"></p>
               <p class="pt-3">
-                501 Kings Highway East, Suite 400, Fairfield, CT 06825
-                Main Office # 203.221.4000 | Mon-Fri 9:00am-5:00pm EST
-                Donor Services # 1.800.728.3843 | Mon-Fri 8:00am-5:00pm EST
-                Report fraud, abuse, wrongdoing
+               <strong> Address</strong> : 51 Lower Easton Street, (Admin-Head Quarters) Freetown. <br>
+              <strong> Address</strong> : 54b Manosewallu Road, Massanta Section, Kailahun town.
               </p>
+              <p> <strong>Mobile</strong>: +232 77 552 643/+232 77 750123/+232 77 209 005/+232 76 136 965</p>
+              <p> <strong>Email</strong>: <a href="mailto:canmagbell2007@gmail.com">canmagbell2007@gmail.com</a></p>
             </div>
           </div>
           <!-- 
             copy right
            -->
            <div class=" pt-10 copy-right">
-             <p>© 2022 Save the Children Save the Children Federation, Inc. is a 501(c)(3) organization. Gifts are deductible to the full extent allowable under IRS regulations</p>
-             <p class="pt-3 pb-16"> By providing my mobile phone number, I opt in to receive text messages and phone calls from Save the Children regarding its lifesaving work. Text STOP to opt out, HELP for help. Message & data rates may apply</p>
+             <p>© 2022 Children’s Advocacy Network (CAN - SL). </p>
+             <p class="pt-3 pb-16"> By providing my mobile phone number, I opt in to receive text messages and phone calls from Children’s Advocacy Network (CAN - SL) regarding its lifesaving work.</p>
            </div>
         </div>
       </div>

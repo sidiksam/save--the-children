@@ -2,7 +2,9 @@
   <div>
       <div class="container mx-auto">
       <div class="mx-44 mt-56">
-        <div><p class="text-4xl pb-5 font-bold">News and Featured Stories</p></div>
+        <div>
+          <p class="text-4xl pb-5 font-bold">News and Featured Stories</p>
+          </div>
         <div class="bg-news-color ">
           <!-- News Card 1 -->
         <div class="flex p-8 space-x-12 items-center cursor-pointer   ">

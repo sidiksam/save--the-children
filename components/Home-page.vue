@@ -1,10 +1,13 @@
 <template>
   <div>
-    <div class="bg-home"></div>
+    <div class="">
+      <img src="~/assets/images/cna1.jpeg" alt="" class="w-full h-screen  object-corver  bg-no-repeat bg-home">
+      <!-- <Slider-comp /> -->
+    </div>
     <section>
-      <div class="container mx-auto">
+      <!-- <div class="container mx-auto">
         <div class="mx-32">
-          <div class>
+          <div class="">
             <p class="bg-white shadow-md rounded-t w-1/2 mt-40 text-4xl font-bold p-3">
               NOW MORE THAN EVER,
               CHILDREN NEED YOUR HELP
@@ -14,9 +17,9 @@
             >TO SURVIVE AND THRIVE</p>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Donate Buttpon -->
-      <div class="container mx-auto pt-6 pb-16">
+      <!-- <div class="container mx-auto pt-6 pb-16">
         <div class="mx-32">
           <nuxt-link to="/donationForm">
             <button
@@ -24,7 +27,7 @@
             >Donate Today</button>
           </nuxt-link>
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- 2 -->
     <section class="bg-white h-auto">
@@ -79,7 +82,18 @@
 </template>
 
 <script>
-export default {}
+// import {slider} from"../plugins/slider"
+export default {
+  data() {
+    return {
+      
+    }
+  },
+  mounted(){
+    //  slider()
+  },
+  methods: {},
+}
 </script>
 
 <style>
