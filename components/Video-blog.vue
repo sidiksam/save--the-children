@@ -7,7 +7,7 @@
         </p>
         <div class="container mx-auto">
           <p class="text-5xl font-bold -mt-60 mx-40">
-            <span class="bg-white px-3 rounded">Blog</span>
+            <span class="bg-white px-3 rounded">Video Blog</span>
           </p>
         </div>
       </div>
@@ -22,8 +22,12 @@
               <div class="bg-news-color">
                 <!-- Blog Card 1 -->
                 <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                  <p class="">
+                    <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                    <video width="380" height="240" controls>
+                      <source src="~/assets/videos/movie.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                    </video>
                   </p>
                   <div>
                     <p
@@ -41,8 +45,12 @@
                 </div>
                 <!-- Blog Card 2 -->
                 <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                   <p class="">
+                    <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                    <video width="380" height="240" controls>
+                      <source src="~/assets/videos/movie.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                    </video>
                   </p>
                   <div>
                     <p
@@ -60,8 +68,12 @@
                 </div>
                 <!-- Blog Card 3 -->
                 <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                   <p class="">
+                    <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                    <video width="380" height="240" controls>
+                      <source src="~/assets/videos/movie.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                    </video>
                   </p>
                   <div>
                     <p
@@ -79,8 +91,12 @@
                 </div>
                 <!-- Blog card 5 -->
                 <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                  <p class="">
+                    <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                    <video width="380" height="240" controls>
+                      <source src="~/assets/videos/movie.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                    </video>
                   </p>
                   <div>
                     <p
@@ -98,8 +114,12 @@
                 </div>
                 <!-- Blog Card 5 -->
                 <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                   <p class="">
+                    <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                    <video width="380" height="240" controls>
+                      <source src="~/assets/videos/movie.mp4" type="video/mp4" />
+                     Your browser does not support the video tag.
+                    </video>
                   </p>
                   <div>
                     <p

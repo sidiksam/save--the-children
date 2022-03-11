@@ -6,13 +6,13 @@
         <div>
           <div>
             <div class="container mx-auto">
-              <div class="mx-28 -mt-8 -mb-12  flex-wrap flex items-center justify-between">
+              <div class="mx-28 -mt-6 -mb-8  flex-wrap flex items-center justify-between">
                 <div>
                   <nuxt-link to="/">
-                    <div class="md:mt-2 -ml-1 relative flex items-center">
+                    <div class="md:mt-2 -ml-14 relative flex items-center">
                       <p class="py-4">
                         <img
-                          class="w-56 h-72 object-cover"
+                          class="w-56 h-42 object-cover"
                           src="~/assets/images/logo4.jpeg"
                           alt
                         />

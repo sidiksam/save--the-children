@@ -1,6 +1,6 @@
 <template>
   <div>
-      <Blog-page />
+      <Child-protection/>
   </div>
 </template>
 

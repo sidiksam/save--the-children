@@ -1,7 +1,11 @@
 <template>
   <div>
-    <div class="">
-      <img src="~/assets/images/cna1.jpeg" alt="" class="w-full h-screen  object-corver  bg-no-repeat bg-home">
+    <div class>
+      <img
+        src="~/assets/images/cna1.jpeg"
+        alt
+        class="w-full h-screen object-corver bg-no-repeat bg-home"
+      />
       <!-- <Slider-comp /> -->
     </div>
     <section>
@@ -17,7 +21,7 @@
             >TO SURVIVE AND THRIVE</p>
           </div>
         </div>
-      </div> -->
+      </div>-->
       <!-- Donate Buttpon -->
       <!-- <div class="container mx-auto pt-6 pb-16">
         <div class="mx-32">
@@ -27,7 +31,7 @@
             >Donate Today</button>
           </nuxt-link>
         </div>
-      </div> -->
+      </div>-->
     </section>
     <!-- 2 -->
     <section class="bg-white h-auto">
@@ -67,16 +71,20 @@
     </section>
     <!-- News sec -->
     <section>
-          <!-- News Card -->
-        <div>
-            <p><News-cards /></p>
-        </div>
+      <!-- News Card -->
+      <div>
+        <p>
+          <News-cards />
+        </p>
+      </div>
     </section>
-     <section>
-          <!-- News Card -->
-        <div>
-            <p><Donors-cards /></p>
-        </div>
+    <section>
+      <!-- News Card -->
+      <div>
+        <p>
+          <Donors-cards />
+        </p>
+      </div>
     </section>
   </div>
 </template>
@@ -85,11 +93,9 @@
 // import {slider} from"../plugins/slider"
 export default {
   data() {
-    return {
-      
-    }
+    return {}
   },
-  mounted(){
+  mounted() {
     //  slider()
   },
   methods: {},
