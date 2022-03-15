@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Nav />
+  
   <Home-page/>
   <!-- <Footer-com /> -->
     </div>

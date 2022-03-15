@@ -1,8 +1,7 @@
 <template>
- <div >
- 
-     <DonationForm class="mb-24" />
- </div>
+  <div>
+      <Child-protection/>
+  </div>
 </template>
 
 <script>

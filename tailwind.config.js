@@ -7,9 +7,15 @@ module.exports = {
       './plugins/**/*.{js,ts}',
       './nuxt.config.{js,ts}',
     ],
+    extend:{},
     variants: {
-      extend: {},
+      extend: {
+        display:['group-focus'],
+        opacity:['group-focus'],
+        inset:['group-focus']
+      },
     },
     plugins: [],
+   
   };
   
