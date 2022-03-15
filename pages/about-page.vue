@@ -2,41 +2,41 @@
   <div>
     <div class>
       <p>
-        <img src="~/assets/images/cna2.jpeg" alt class="w-full object-cover bg-no-repeat bg-home" />
+        <img src="~/assets/images/cna2.jpeg" alt class="md:w-full  mt-14   bg-no-repeat bg-home" />
       </p>
       <div class="container mx-auto">
-        <p class="text-5xl font-bold -mt-60 mx-40">
+        <p class="md:text-5xl font-bold md:-mt-60 -mt-8 md:mx-40 mx-8">
           <span class="bg-white px-3 rounded">ABOUT US</span>
         </p>
       </div>
     </div>
-    <div class="mt-60 container mx-auto">
+    <div class="md:mt-60 container mx-auto">
       <!-- Mission -->
-      <div class="mx-40">
-        <p class="flex justify-center items-center text-4xl pb-6 font-bold">Our Mission</p>
+      <div class="md:mx-40 mx-8 md:pt-0 pt-8">
+        <p class="flex justify-center items-center md:text-4xl text-xl pb-6 font-bold">Our Mission</p>
         <p
-          class="flex justify-center items-center text-xl font-bold text-gray-500"
+          class="flex justify-center items-center md:text-xl text-sm font-bold text-gray-500"
         >Children’s Advocacy Network (CAN - SL)  believes every child deserves a future.</p>
         <p
-          class="flex justify-center text-gray-500 text-start px-48 py-6 text-lg font-semibold"
+          class="flex justify-center text-gray-500 text-start md:px-48 py-6 md:text-lg text-sm font-semibold"
         >To provide necessary support in changing the perception and wrong doing of our people‘s by minimizing the incidence of child abuse in our society. Thereby a secured safe and friendly environment will be attained for the betterment of our beloved children’s</p>
       </div>
       <!-- vision -->
-      <div class="mx-40">
-        <p class="flex justify-center items-center text-4xl pb-6 font-bold">Our Vision</p>
+      <div class="md:mx-40 mx-8">
+        <p class="flex justify-center items-center md:text-4xl text-lg pb-6 font-bold">Our Vision</p>
 
         <p
-          class="flex justify-center text-gray-500 text-start px-48 pb-6 text-lg font-semibold"
+          class="flex justify-center text-gray-500 text-start md:px-48 pb-6 md:text-lg text-sm font-semibold"
         >To see transformed communities where children and women live with no fear or oppression and been treated with dignity and respect at all level.</p>
       </div>
       <nuxt-link to="/donationForm">
-        <p class="flex justify-center items-center pb-6">
-          <button class="primary-color py-2 px-16 p rounded text-xl font-bold text-white">DONATE NOW</button>
+        <p class="flex justify-center items-center pb-6 md:mx-0 mx-8">
+          <button class="primary-color py-2 md:px-16  rounded md:text-xl  text-sm  md:w-72 w-full font-bold text-white">DONATE NOW</button>
         </p>
       </nuxt-link>
-      <p class="flex justify-center items-center text-4xl pb-6 font-bold">Our Values</p>
+      <p class="flex justify-center items-center  md:text-4xl text-lg pb-6 font-bold">Our Values</p>
 
-      <div class="flex justify-center items-center text-gray-500 font-semibold text-lg">
+      <div class="flex md:justify-center md:mx-0 mx-8 items-center text-gray-500 font-semibold md:text-lg text-sm">
         <ul>
           <li>Child centered and women Welfare Focus</li>
           <li>Innovative Leadership</li>
@@ -124,16 +124,16 @@
     <!-- History -->
     <div class="container mx-auto">
       <p
-        class="text-4xl pb-5 font-bold mx-40 pt-8"
+        class="md:text-4xl text-base pb-5 font-bold md:mx-40 mx-8 pt-8"
       >CHILDREN’S ADVOCACY NETWORK -(CAN - SL) HISTORICAL PROFILE</p>
     </div>
-    <div class="bg-news-color mx-40 mb-8 shadow-md">
+    <div class="bg-news-color md:mx-40 mb-8 shadow-md">
       <!-- News Card 1 -->
-      <div class="flex pb-5 space-x-12 items-center justify-center cursor-pointer">
+      <div class="md:flex md:mx-0 mx-8 md:pt-0 pt-4 pb-5 md:space-x-12 items-center md:justify-center cursor-pointer">
         <p class>
-          <img class="w-full h-72 ocject-cover" src="~/assets/images/cna1.jpeg" alt />
+          <img class="w-full h-72 object-cover" src="~/assets/images/cna1.jpeg" alt />
         </p>
-        <div class="w-1/2">
+        <div class="md:w-1/2">
           <!-- <p class="text-3xl font-bold">CHILDREN’S ADVOCACY NETWORK -(CAN - SL) HISTORICAL PROFILE </p> -->
           <p
             class="py-4 text-left text-normal font-semibold text-gray-500"

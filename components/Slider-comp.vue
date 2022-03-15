@@ -1,293 +1,167 @@
 <template>
-  <div>
-    <div class="slider">
-      <!-- fade css -->
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 1</h1>
-          <p>
-            Web Devoloper
-            <br />Subscribe To My Channel For More Videos
-          </p>
+  <div class="mt-3 ">
+    <section class="flex m-0 p-0  h-screen justify-center items-center ">
+      <!-- images sliders start -->
+      <div class="slider">
+        <div class="slides ">
+          <!-- redio button start -->
+          <input id="radio1" type="radio" name="radio-btn" />
+          <input id="radio2" type="radio" name="radio-btn" />
+          <input id="radio3" type="radio" name="radio-btn" />
+          <input id="radio4" type="radio" name="radio-btn" />
+          <!-- redio button end -->
+          <!-- sliders images start -->
+          <!-- slide1 -->
+          <div class="slide first ">
+            <img class="" src="~/assets/images/cna1.jpeg" alt />
+          </div>
+          <!-- slide 2 -->
+          <div class="slide">
+            <img class="" src="~/assets/images/cna2.jpeg" alt />
+          </div>
+          <!-- slide 3 -->
+          <div class="slide">
+            <img class="" src="~/assets/images/cna1.jpeg" alt />
+          </div>
+          <!-- slide 4 -->
+          <div class="slide">
+            <img class="" src="~/assets/images/cna2.jpeg" alt />
+          </div>
+          <!-- sliders images end -->
+          <!-- automatic navigation start -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn14"></div>
+          </div>
+          <!-- automatic navigation end -->
         </div>
-        <img class src="~/assets/images/cna1.jpeg" style="width: 100%; height: 100%;" />
-      </div>
-
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 2</h1>
-          <p>
-            Web Devoloper
-            <br />Subscribe To My Channel For More Videos
-          </p>
+        <!-- Manual navigation start -->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
         </div>
-        <img src="~/assets/images/cna1.jpeg" s style="width: 100%; height: 100%;" />
+        <!-- Manual navigation end -->
       </div>
-
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 3</h1>
-          <p>
-            Web Devoloper
-            <br />Subscribe To My Channel For More Videos
-          </p>
-        </div>
-        <img src="~/assets/images/cna1.jpeg" style="width: 100%; height: 100%;" />
-      </div>
-
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 4</h1>
-          <p>
-            Web Devoloper
-            <br />Subscribe To My Channel For More Videos
-          </p>
-        </div>
-        <img src="~/assets/images/cna1.jpeg" style="width: 100%; height: 100%;" />
-      </div>
-
-      <div class="myslide fade">
-        <div class="txt">
-          <h1>IMAGE 5</h1>
-          <p>
-            Web Devoloper
-            <br />Subscribe To My Channel For More Videos
-          </p>
-        </div>
-        <img src="~/assets/images/cna1.jpeg" style="width: 100%; height: 100%;" />
-      </div>
-      <!-- /fade css -->
-
-      <!-- onclick js -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-      <div class="dotsbox" style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-      </div>
-      <!-- /onclick js -->
-    </div>
+      <!-- images sliders end -->
+    </section>
   </div>
 </template>
 
 <script>
-// import  {slider}  from '.././plugins/slider'
+import  {slider}  from '.././plugins/slider'
 export default {
   data() {
     return {}
   },
   mounted() {
-    // slider()
+    slider()
   },
 }
 </script>
 
+
 <style scoped >
-
-
-.act {
-  border: 2px solid #fff;
-  border-radius: 50px;
-  padding: 6px 15px;
-}
 .slider {
-  position: relative;
-  width: 100%;
-  background: #2c3e50; /* darckblue */
-}
-.myslide {
-  height: 655px;
-  display: none;
+  width: 100vw;
+  height: 600px;
   overflow: hidden;
 }
+.slides {
+  width: 500%;
+  height: 800px;
+  display: flex;
 
-.prev,
-.next {
+  
+}
+
+.slides input {
+  display: none;
+  
+}
+
+.slide {
+  width: 20%;
+  transition: 2s;
+ 
+}
+.slide img {
+  width: 100vw;
+  height: 700px;
+ 
+}
+
+/* css for manual */
+
+.navigation-manual {
   position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  font-size: 50px;
-  padding: 15px;
+  width: 100vw;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.manual-btn {
+  border: 2px solid #2240af;
+  padding: 5px;
+  border-radius: 10px;
   cursor: pointer;
-  color: #fff;
-  transition: 0.1s;
-  user-select: none;
+  transition: 1s;
 }
-.prev:hover,
-.next:hover {
-  color: #00a7ff; /* blue */
+.manual-btn:not(:last-child) {
+  margin-right: 40px;
+  
 }
-.next {
-  right: 0;
-}
-.dotsbox {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  bottom: 20px;
-  cursor: pointer;
-}
-.dot {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  margin: 0 10px;
-  cursor: pointer;
-}
-/* /2 */
-
-/* javascript */
-.active,
-.dot:hover {
-  border-color: #00a7ff; /* blue */
-}
-/* /javascript */
-
-/* muslide add fade */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.8;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.8;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* /muslide add fade */
-
-/* 3 */
-.txt {
-  position: absolute;
-  color: #fff;
-  letter-spacing: 2px;
-  line-height: 35px;
-  top: 40%;
-  left: 15%;
-  -webkit-animation-name: posi;
-  -webkit-animation-duration: 2s;
-  animation-name: posi;
-  animation-duration: 2s;
-  z-index: 1;
-}
-
-@-webkit-keyframes posi {
-  from {
-    left: 25%;
-  }
-  to {
-    left: 15%;
-  }
-}
-
-@keyframes posi {
-  from {
-    left: 25%;
-  }
-  to {
-    left: 15%;
-  }
-}
-
-.txt h1 {
-  color: #00a7ff; /* blue */
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-.txt p {
-  font-weight: bold;
-  font-size: 20px;
-}
-/* /3 */
-
-/* 4 */
-img {
-  transform: scale(1.5, 1.5);
-  -webkit-animation-name: zoomin;
-  -webkit-animation-duration: 40s;
-  animation-name: zoomin;
-  animation-duration: 40s;
-}
-@-webkit-keyframes zoomin {
-  from {
-    transform: scale(1, 1);
-  }
-  to {
-    transform: scale(1.5, 1.5);
-  }
-}
-
-@keyframes zoomin {
-  from {
-    transform: scale(1, 1);
-  }
-  to {
-    transform: scale(1.5, 1.5);
-  }
-}
-/* /4 */
-
-/* 5 */
-@media screen and (max-width: 800px) {
-  .myslide {
-    height: 500px;
-  }
-  .txt {
-    letter-spacing: 2px;
-    line-height: 25px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-animation-name: posi2;
-    -webkit-animation-duration: 2s;
-    animation-name: posi2;
-    animation-duration: 2s;
+  .manual-btn:hover{
+    background: #2240af;
+  
   }
 
-  @-webkit-keyframes posi2 {
-    from {
-      top: 35%;
-    }
-    to {
-      top: 50%;
-    }
-  }
-
-  @keyframes posi2 {
-    from {
-      top: 35%;
-    }
-    to {
-      top: 50%;
-    }
-  }
-
-  .txt h1 {
-    font-size: 40px;
-  }
-  .txt p {
-    font-size: 13px;
-  }
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+#radio4:checked ~ .first {
+  margin-left: -60%;
 }
 
+/* css auto */
+.navigation-auto{
+position: absolute;
+display: flex;
+width: 100vw;
+ justify-content: center;
+ align-items: center;
+ margin-top: 570px;
+}
+.navigation-auto div{
+  border: 2px solid #2240af;
+  padding: 5px;
+  border-radius: 10px;
+transition: 1s;
+}
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+  background: #2240af;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+  background: #2240af;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #2240af;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #2240af;
+}
 </style>

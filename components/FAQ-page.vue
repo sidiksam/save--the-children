@@ -6,19 +6,19 @@
           <img src="~/assets/images/cna2.jpeg" alt class="w-full object-cover bg-no-repeat bg-home" />
         </p>
         <div class="container mx-auto">
-          <p class="text-5xl font-bold -mt-60 mx-40">
-            <span class="bg-white px-3 rounded">Frequently Ask Questions</span>
+          <p class="md:text-5xl font-bold md:-mt-60 md:mx-40 mx-8 -mt-8">
+            <span class="bg-white px-3 pb-2 rounded">Frequently Ask Questions</span>
           </p>
         </div>
       </div>
       <!-- Faq -->
       <div class="container mx-auto">
-        <div class="mt-48">
+        <div class="md:mt-48">
           <div class="accordion-body">
             <div class="accordion">
-              <p class="text-3xl font-bold faq pb-8">Frequently Asked Questions</p>
+              <p class="md:text-3xl text-xl font-bold md:faq pb-8">Frequently Asked Questions</p>
               <hr />
-              <div class="container">
+              <div class="container md:text">
                 <div class="label">What is CAN?</div>
                 <div
                   class="content"
@@ -33,9 +33,10 @@
               </div>
               <hr />
               <div class="container">
-                <div
-                  class="label"
-                >How do you coordinate your work with other aid agencies, to avoid <br> duplication of services?</div>
+                <div class="label">
+                  How do you coordinate your work with other aid agencies, to avoid
+                  <br />duplication of services?
+                </div>
                 <div
                   class="content"
                 >We work closely with Government Partners and other INGO’s/LNGO’s agencies to coordinate our programs.</div>
@@ -45,7 +46,10 @@
                 <div class="label">How much of my donation will go toward programs?</div>
                 <div class="content">
                   Checks/money orders should be send to our bank account or through our orange money number on +232 73 662 06. If you wish your gift to be allocated to a particular program, please include this information in the mail you will sent to us at
-                  <a class="text-indigo-600" href="mailto: ">canmagbell2007@gmail.com</a>, also contact us for the bank account number on the above mail.
+                  <a
+                    class="text-indigo-600"
+                    href="mailto: "
+                  >canmagbell2007@gmail.com</a>, also contact us for the bank account number on the above mail.
                 </div>
               </div>
               <hr />
@@ -61,7 +65,10 @@
                 <div class="label">Who do I contact if I have a question or issue with my donation?</div>
                 <div class="content">
                   Please contact us at
-                  <a class="text-indigo-600" href="mailto: ">canmagbell2007@gmail.com</a> at or visit any of our office at 51Lower Easton Street, Monday-Friday 9am-4pm.
+                  <a
+                    class="text-indigo-600"
+                    href="mailto: "
+                  >canmagbell2007@gmail.com</a> at or visit any of our office at 51Lower Easton Street, Monday-Friday 9am-4pm.
                 </div>
               </div>
               <hr />
@@ -69,7 +76,10 @@
                 <div class="label">What if I don’t see my donation in the Supporter Center?</div>
                 <div class="content">
                   Web donations show up approximately 24 hours after the transaction is complete. If you don’t see yours, please contact us at
-                  <a class="text-indigo-600" href="mailto: ">canmagbell2007@gmail.com</a> or visit any of our office at 51Lower Easton Street. Monday-Friday 9am-4pm.
+                  <a
+                    class="text-indigo-600"
+                    href="mailto: "
+                  >canmagbell2007@gmail.com</a> or visit any of our office at 51Lower Easton Street. Monday-Friday 9am-4pm.
                 </div>
               </div>
               <hr />
@@ -196,7 +206,7 @@ export default {
 /* Unhides the content part when active. Sets the height */
 
 .accordion .container.active .content {
-  height: 100px;
+  height: 120px;
 }
 
 /* Changes from plus sign to negative sign once active */
@@ -204,5 +214,57 @@ export default {
 .accordion .container.active .label::before {
   content: '-';
   font-size: 30px;
+}
+
+@media (max-width: 780px) {
+  .accordion {
+    width: 350px;
+    flex-wrap: wrap;
+    margin: 0px;
+    color: black;
+    background-color: white;
+    padding: 60px 8px;
+  }
+  .accordion .container {
+    position: relative;
+    margin: 10px 10px;
+  }
+
+  .accordion .label {
+    position: relative;
+    padding: 8px 0px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+  }
+  .accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 4px;
+    font-size: 18px;
+    transform: translateY(-50%);
+  }
+
+  .accordion .content {
+    position: relative;
+    flex-wrap: wrap;
+    background: white;
+    height: 0;
+    font-size: 12px;
+    text-align: start;
+    width: 330px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+
+  .accordion .container.active .label::before {
+    content: '-';
+    font-size: 18px;
+  }
+  .accordion .container.active .content {
+    height: 200px;
+  }
 }
 </style>

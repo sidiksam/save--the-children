@@ -6,9 +6,9 @@
         <div>
           <div>
             <div class="container mx-auto">
-              <div class="mx-28 -mt-6 -mb-8  flex-wrap flex items-center justify-between">
+              <div class="md:mx-24 -mt-6 -mb-8  flex-wrap flex items-center justify-between">
                 <div>
-                  <nuxt-link to="/">
+                  <nuxt-link to="/" class="hidden md:block">
                     <div class="md:mt-2 -ml-14 relative flex items-center">
                       <p class="py-4">
                         <img
@@ -18,17 +18,47 @@
                         />
                       </p>
                     </div>
-                  </nuxt-link>
+                  </nuxt-link >
+                  <!-- Mobile -->
+                    <nuxt-link to="/" class="block md:hidden">
+                    <div class="md:mt-2 -ml-1 py-2 relative flex items-center">
+                      <p class="py-4">
+                        <img
+                          class="w-24 h-24 object-cover"
+                          src="~/assets/images/logo4.jpeg"
+                          alt
+                        />
+                      </p>
+                    </div>
+                  </nuxt-link >
                 </div>
                 <div class="flex items-center text-gray-700">
-                  <nuxt-link to="#" class>
+                  <nuxt-link to="#" class="hidden md:block">
                     <nav>
                       <div class>
-                        <div class>
-                          <button class="flex border border-current rounded items-center">
-                            <el-input v-model="input" placeholder="Enter search term" ></el-input>
-                            <span class="pr-3">
-                              <i class="el-icon-search text-3xl"></i>
+                        <div class="flex border ">
+                            <input class=" focus:outline-none o border-none px-2 placeholder-gray-400 bg-white" type="text"  placeholder="Enter search term" >
+                          <button class="flex focus:outline-none bg-white border-l border-current  py-2 px-2 items-center">
+                        
+                            <span class="px-1">
+                              <i class="el-icon-search text-3xl "></i>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </nav>
+                  </nuxt-link>
+                  <!-- Movile view -->
+                   <nuxt-link to="#" class="block md:hidden">
+                    <nav>
+                      <div class>
+                       
+                        <div class="flex border mr-3  ">
+                            <input class=" focus:outline-none border-none text-xs px-2 placeholder-gray-400 bg-white" type="text"  placeholder="Enter search term" >
+                          <button class="flex focus:outline-none bg-white border-l border-current  py-2 px-2 items-center">
+                        
+                            <span class="px-1 flex items-center">
+                             <i class="el-icon-search text-xl pl-1 -mr-2"></i>
                             </span>
                           </button>
                         </div>
@@ -71,5 +101,7 @@ export default {
 }
 </script>
 
-<style>
+<style scope>
+
+
 </style>

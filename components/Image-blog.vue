@@ -1,13 +1,13 @@
 <template>
   <div>
     <div>
-      <div class>
+      <div>
         <p>
           <img src="~/assets/images/cna2.jpeg" alt class="w-full object-cover bg-no-repeat bg-home" />
         </p>
         <div class="container mx-auto">
-          <p class="text-5xl font-bold -mt-60 mx-40">
-            <span class="bg-white px-3 rounded">Image Blog</span>
+          <p class="md:text-5xl font-bold md:-mt-60 md:mx-40 mx-8 -mt-8">
+            <span class="bg-white px-3 pb-2 rounded">Blog Images</span>
           </p>
         </div>
       </div>
@@ -15,102 +15,102 @@
       <div class="mb-8">
         <div>
           <div class="container mx-auto">
-            <div class="mx-44 mt-56">
+            <div class="md:mx-44 md:mt-56 mt-8">
               <div>
-                <p class="text-4xl pb-5 font-bold">News and Featured Stories</p>
+                <p class="md:text-4xl text-xl md:mx-0 mx-8 pb-5 font-bold">News and Featured Stories</p>
               </div>
               <div class="bg-news-color">
                 <!-- Blog Card 1 -->
-                <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
+                <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
+                  <p class="md:w-1/2 md:h-1/2">
                     <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
                   </p>
                   <div>
                     <p
-                      class="text-3xl font-bold"
+                      class="md:text-3xl text-base font-bold"
                     >What Is the Current Situation for Children in Conflict in Ukraine?</p>
                     <p
                       class="py-4"
                     >The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
-                    <p class="pt-3">
+                    <p class="pt-2">
                       <button
-                        class="form-color py-2 px-16 p rounded text-xl font-bold text-white"
+                        class="form-color py-2  md:w-60 w-full rounded md:text-xl text-sm font-bold text-white"
                       >READ MORE</button>
                     </p>
                   </div>
                 </div>
                 <!-- Blog Card 2 -->
-                <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
+                <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
+                  <p class="md:w-1/2 md:h-1/2">
                     <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
                   </p>
                   <div>
                     <p
-                      class="text-3xl font-bold"
+                      class="md:text-3xl text-base font-bold"
                     >What Is the Current Situation for Children in Conflict in Ukraine?</p>
                     <p
                       class="py-4"
                     >The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
-                    <p class="pt-3">
+                    <p class="pt-2">
                       <button
-                        class="form-color py-2 px-16 p rounded text-xl font-bold text-white"
+                        class="form-color py-2  md:w-60 w-full rounded md:text-xl text-sm font-bold text-white"
                       >READ MORE</button>
                     </p>
                   </div>
                 </div>
                 <!-- Blog Card 3 -->
-                <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
+                 <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
+                  <p class="md:w-1/2 md:h-1/2">
                     <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
                   </p>
                   <div>
                     <p
-                      class="text-3xl font-bold"
+                      class="md:text-3xl text-base font-bold"
                     >What Is the Current Situation for Children in Conflict in Ukraine?</p>
                     <p
                       class="py-4"
                     >The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
-                    <p class="pt-3">
+                    <p class="pt-2">
                       <button
-                        class="form-color py-2 px-16 p rounded text-xl font-bold text-white"
+                        class="form-color py-2  md:w-60 w-full rounded md:text-xl text-sm font-bold text-white"
                       >READ MORE</button>
                     </p>
                   </div>
                 </div>
-                <!-- Blog card 5 -->
-                <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
+                <!-- Blog card 4 -->
+                <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
+                  <p class="md:w-1/2 md:h-1/2">
                     <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
                   </p>
                   <div>
                     <p
-                      class="text-3xl font-bold"
+                      class="md:text-3xl text-base font-bold"
                     >What Is the Current Situation for Children in Conflict in Ukraine?</p>
                     <p
                       class="py-4"
                     >The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
-                    <p class="pt-3">
+                    <p class="pt-2">
                       <button
-                        class="form-color py-2 px-16 p rounded text-xl font-bold text-white"
+                        class="form-color py-2  md:w-60 w-full rounded md:text-xl text-sm font-bold text-white"
                       >READ MORE</button>
                     </p>
                   </div>
                 </div>
                 <!-- Blog Card 5 -->
-                <div class="flex p-8 space-x-12 items-center cursor-pointer">
-                  <p class="w-1/2 h-1/2">
+                 <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
+                  <p class="md:w-1/2 md:h-1/2">
                     <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
                   </p>
                   <div>
                     <p
-                      class="text-3xl font-bold"
+                      class="md:text-3xl text-base font-bold"
                     >What Is the Current Situation for Children in Conflict in Ukraine?</p>
                     <p
                       class="py-4"
                     >The Ukraine crisis has already forced at least 1.5 million children and families from their homes.</p>
-                    <p class="pt-3">
+                    <p class="pt-2">
                       <button
-                        class="form-color py-2 px-16 p rounded text-xl font-bold text-white"
+                        class="form-color py-2  md:w-60 w-full rounded md:text-xl text-sm font-bold text-white"
                       >READ MORE</button>
                     </p>
                   </div>
@@ -120,6 +120,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- Pagination -->
+    <div class="flex justify-center pb-5 -mt-4">
+      <el-pagination  layout="prev, pager, next" :total="50"></el-pagination>
     </div>
   </div>
 </template>
