@@ -23,7 +23,7 @@
               <!-- Blog Card 1 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>
-                  <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                  <!-- <video class src="~/assets/images/cna1.jpeg" alt /> -->
                   <video width="380" height="240" controls>
                     <source src="~/assets/videos/movie.mp4" type="video/mp4" />Your browser does not support the video tag.
                   </video>
@@ -45,7 +45,7 @@
               <!-- Blog Card 2 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>
-                  <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                  <!-- <video class src="~/assets/images/cna1.jpeg" alt /> -->
                   <video width="380" height="240" controls>
                     <source src="~/assets/videos/movie.mp4" type="video/mp4" />Your browser does not support the video tag.
                   </video>
@@ -67,7 +67,7 @@
               <!-- Blog Card 3 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>
-                  <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                  <!-- <video class src="~/assets/images/cna1.jpeg" alt /> -->
                   <video width="380" height="240" controls>
                     <source src="~/assets/videos/movie.mp4" type="video/mp4" />Your browser does not support the video tag.
                   </video>
@@ -89,7 +89,7 @@
               <!-- Blog card 4 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>
-                  <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                  <!-- <video class src="~/assets/images/cna1.jpeg" alt /> -->
                   <video width="380" height="240" controls>
                     <source src="~/assets/videos/movie.mp4" type="video/mp4" />Your browser does not support the video tag.
                   </video>
@@ -111,7 +111,7 @@
               <!-- Blog Card 5 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>
-                  <!-- <video class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt /> -->
+                  <!-- <video class src="~/assets/images/cna1.jpeg" alt /> -->
                   <video width="380" height="240" controls>
                     <source src="~/assets/videos/movie.mp4" type="video/mp4" />Your browser does not support the video tag.
                   </video>

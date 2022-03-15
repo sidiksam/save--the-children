@@ -11,7 +11,7 @@
           <!-- card 1 -->
           <div class="bg-white md:w-96 md:h-96 cursor-pointer pb-6">
             <p>
-              <img class src="~/assets/images/cq5dam.thumbnail.768.768.jpg" alt />
+              <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
             <div class="font-bold md:text-2xl pt-2">
               <p>BECOME A MONTHLY DONOR</p>
@@ -23,7 +23,7 @@
           <!-- card 2 -->
            <div class="bg-white md:w-96 md:h-96 cursor-pointer pb-6">
             <p>
-             <img class src="~/assets/images/cq5dam.thumbnail.768.768 (1).jpg" alt />
+             <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
             <div class="font-bold md:text-2xl pt-2">
               <p>BECOME A MONTHLY DONOR</p>
@@ -36,7 +36,7 @@
         
           <div class="bg-white md:w-96 md:h-96 cursor-pointer pb-6">
             <p>
-             <img class src="~/assets/images/cq5dam.thumbnail.768.768.jpg" alt />
+             <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
             <div class="font-bold md:text-2xl pt-2">
               <p>BECOME A MONTHLY DONOR</p>

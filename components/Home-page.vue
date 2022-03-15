@@ -24,7 +24,7 @@
             >We work in the hardest-to-reach places, where it’s toughest to be a child.</p>
             <p
               class="px-6 pt-2 text-normal"
-            >When you give to Save the Children, 85% of every leone goes straight to our mission to provide lifesaving relief to children.</p>
+            >When you give to Children’s Advocacy Network (CAN - SL), 85% of every leone goes straight to our mission to provide lifesaving relief to children.</p>
             <ul class="list-disc px-16 pt-4 text-normal">
               <li>
                 <strong>le50,000</strong> can provide enough food to keep 3 children from going hungry for a month
