@@ -1,6 +1,12 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true },
+      { href: "https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap", rel: "stylesheet" }
+    ],
     title: 'save-the-children',
     htmlAttrs: {
       lang: 'en',
@@ -11,23 +17,20 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-   {rel:"stylesheet",href:"https://fonts.googleapis.com/css2?family=Nunito&display=swap"}
-],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'element-ui/lib/theme-chalk/index.css',
     '@/assets/css/tailwind.css',
-],
+  ],
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/element-ui',
     '~/plugins/accrodion.js',
     '~/plugins/slider.js',
 
-],
+  ],
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -37,7 +40,7 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
- 
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -53,8 +56,8 @@ export default {
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
- 
-  
+
+
   build: {},
-  
+
 }

@@ -23,7 +23,7 @@
                 <!-- Blog Card 1 -->
                 <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                   <p class="md:w-1/2 md:h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                    <img class src="~/assets/images/cna1.jpeg" alt />
                   </p>
                   <div>
                     <p
@@ -42,7 +42,7 @@
                 <!-- Blog Card 2 -->
                 <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                   <p class="md:w-1/2 md:h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                    <img class src="~/assets/images/cna1.jpeg" alt />
                   </p>
                   <div>
                     <p
@@ -61,7 +61,7 @@
                 <!-- Blog Card 3 -->
                  <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                   <p class="md:w-1/2 md:h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                    <img class src="~/assets/images/cna1.jpeg" alt />
                   </p>
                   <div>
                     <p
@@ -80,7 +80,7 @@
                 <!-- Blog card 4 -->
                 <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                   <p class="md:w-1/2 md:h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                    <img class src="~/assets/images/cna1.jpeg" alt />
                   </p>
                   <div>
                     <p
@@ -99,7 +99,7 @@
                 <!-- Blog Card 5 -->
                  <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                   <p class="md:w-1/2 md:h-1/2">
-                    <img class src="~/assets/images/cq5dam.thumbnail.768.768 (2).jpg" alt />
+                    <img class src="~/assets/images/cna1.jpeg" alt />
                   </p>
                   <div>
                     <p

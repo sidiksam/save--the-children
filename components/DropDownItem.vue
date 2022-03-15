@@ -273,7 +273,7 @@
           <!-- Donate Buttpon -->
           <div>
             <nuxt-link to="/donationForm">
-              <button class="primary-color mt-2 py-1 px-5 rounded text-sm font-bold text-white">Donate</button>
+              <button class="primary-color mt-2 py-1 px-8 rounded text-sm font-bold text-white">Donate</button>
             </nuxt-link>
           </div>
         </div>

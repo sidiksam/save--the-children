@@ -3,13 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-template{
+header{
+  font-family: 'Oswald', sans-serif;
+}
+body{
 
-    font-size: 14px;
+    font-size: 18px;
     color: #0a0a0a;
     font-weight: 400;
     padding: 0;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
+  
   
   }
 

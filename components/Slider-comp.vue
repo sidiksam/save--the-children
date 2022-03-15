@@ -72,7 +72,7 @@ export default {
 }
 .slides {
   width: 500%;
-  height: 800px;
+  height: 470px;
   display: flex;
 
   
