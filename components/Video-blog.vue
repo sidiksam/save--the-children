@@ -19,7 +19,7 @@
             <div>
               <p class="md:text-4xl text-xl md:mx-0 mx-8 pb-5 font-bold">News and Featured Stories</p>
             </div>
-            <div class="bg-news-color">
+            <div class="bg-news-color shadow-lg">
               <!-- Blog Card 1 -->
               <div class="md:flex p-8 md:space-x-12 items-center cursor-pointer">
                 <p class>

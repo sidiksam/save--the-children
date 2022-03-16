@@ -15,10 +15,10 @@
     <section>
     </section>
     <!-- 2 -->
-    <section class="bg-white h-auto">
+    <section class="bg-white h-auto ">
       <div class="container mx-auto">
         <div class="md:mx-44 pt-6">
-          <div class="bg-body text-white mb-12 shadow-lg">
+          <div class="bg-body text-white mb-12 ">
             <p
               class="md:text-3xl text-xl font-bold pt-5 px-6"
             >We work in the hardest-to-reach places, where it’s toughest to be a child.</p>

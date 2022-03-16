@@ -11,7 +11,7 @@
       <div class="container mx-auto">
         <div class="md:mx-28  pb-6 items-center">
           <div class="bg-gray-100 md:w-5/12 h-auto md:mt-32 mt-12  rounded">
-            <p class="md:text-5xl text-lg p-3 md:pt-0 pt-5 font-bold">DONATE TODAY: SAVE A LIFE</p>
+            <p class="md:text-5xl text-lg p-3 md:pt-5 pt-5 font-bold">DONATE TODAY: SAVE A LIFE</p>
             <p
               class="text-gray-700 font-bold p-4 py-3 text-lg"
             >Vulnerable children need you more than ever.</p>
