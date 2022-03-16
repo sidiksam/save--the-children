@@ -13,7 +13,7 @@
               <p>To provide necessary support in changing the perception and wrong doing of our people‘s by minimizing the incidence of child abuse in our society. Thereby a secured safe and friendly environment will be attained for the betterment of our beloved children’s.</p>
             </div>
             <!-- quick link -->
-            <div class="md:w-1/3 md:pl-24 leading-8 md:pt-2 pt-4">
+            <div class="md:w-1/3 md:pl-24 md:leading-10 leading-9 md:pt-2 pt-4">
               <div>
                 <p class="text-lg font-bold text-white pb-1">Quick Links</p>
               </div>

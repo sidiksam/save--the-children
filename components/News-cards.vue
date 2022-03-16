@@ -5,7 +5,7 @@
         <div>
           <p class="md:text-4xl text-lg pb-5 font-bold">News and Featured Stories</p>
           </div>
-        <div class="bg-news-color ">
+        <div class="bg-news-color shadow-lg ">
           <!-- News Card 1 -->
         <div class="md:flex  md:p-8 p-4 md:space-x-12 items-center cursor-pointer   ">
           <p class="md:w-1/2 md:h-1/2 md:p-0  "> <img class src="~/assets/images/cna1.jpeg" alt /></p>

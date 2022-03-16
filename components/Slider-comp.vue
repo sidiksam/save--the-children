@@ -13,19 +13,19 @@
           <!-- sliders images start -->
           <!-- slide1 -->
           <div class="slide first ">
-            <img class="" src="~/assets/images/cna1.jpeg" alt />
+            <img class="object-cover" src="~/assets/images/cna1.jpeg" alt />
           </div>
           <!-- slide 2 -->
           <div class="slide">
-            <img class="" src="~/assets/images/cna2.jpeg" alt />
+            <img class="object-cover" src="~/assets/images/cna2.jpeg" alt />
           </div>
           <!-- slide 3 -->
           <div class="slide">
-            <img class="" src="~/assets/images/cna1.jpeg" alt />
+            <img class="object-cover" src="~/assets/images/cna1.jpeg" alt />
           </div>
           <!-- slide 4 -->
           <div class="slide">
-            <img class="" src="~/assets/images/cna2.jpeg" alt />
+            <img class="object-cover" src="~/assets/images/cna2.jpeg" alt />
           </div>
           <!-- sliders images end -->
           <!-- automatic navigation start -->
