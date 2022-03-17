@@ -4,11 +4,11 @@
       <div class="md:mx-32 mx-8">
         <div class="flex flex-wrap mb-12 md:space-x-4 justify-center">
           <!-- card 1 -->
-       <div class="bg-white md:w-96 md:h-96 cursor-pointer pb-6">
+       <div class="bg-white md:w-96 md:h-96 cursor-pointer pb-6  ">
             <p>
-              <img class src="~/assets/images/cna1.jpeg" alt />
+              <img class="" src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2 ">
               <p>EDUCATION AT RISK: THE 6 BIGGEST CHALLENGES FACING CHILDREN IN 2022</p>
             </div>
@@ -22,7 +22,7 @@
             <p>
               <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2 ">
               <p>EDUCATION AT RISK: THE 6 BIGGEST CHALLENGES FACING CHILDREN IN 2022</p>
             </div>
@@ -36,7 +36,7 @@
             <p>
               <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2 ">
               <p>EDUCATION AT RISK: THE 6 BIGGEST CHALLENGES FACING CHILDREN IN 2022</p>
             </div>

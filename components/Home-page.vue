@@ -71,13 +71,13 @@
 </template>
 
 <script>
-// import {slider} from"../plugins/slider"
+
 export default {
   data() {
     return {}
   },
   mounted() {
-    //  slider()
+  
   },
   methods: {},
 }
