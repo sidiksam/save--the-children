@@ -1,6 +1,7 @@
 <template>
   <div>
       <FAQ-page />
+      
   </div>
 </template>
 
@@ -14,7 +15,7 @@ export default {
   },
     head() {
     return {
-      title: 'Faq-page',
+      title: 'Faq',
     }
   },
 }

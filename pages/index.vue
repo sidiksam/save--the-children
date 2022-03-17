@@ -2,7 +2,7 @@
   <div>
   
   <Home-page/>
-  <!-- <Footer-com /> -->
+  
     </div>
 </template>
 

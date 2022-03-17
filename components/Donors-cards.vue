@@ -13,7 +13,7 @@
             <p>
               <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2">
                 <p>BECOME A MONTHLY DONOR</p>
               </div>
@@ -29,7 +29,7 @@
             <p>
               <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2">
                 <p>BECOME A MONTHLY DONOR</p>
               </div>
@@ -46,7 +46,7 @@
             <p>
               <img class src="~/assets/images/cna1.jpeg" alt />
             </p>
-            <div class="shadow-lg bg-white p-3">
+            <div class="shadow-lg bg-white p-3 rounded-b-md">
               <div class="font-bold md:text-lg pt-2">
                 <p>BECOME A MONTHLY DONOR</p>
               </div>

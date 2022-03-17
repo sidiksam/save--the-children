@@ -160,7 +160,7 @@ export default {
   },
     head() {
     return {
-      title: 'About-page',
+      title: 'About',
     }
   },
 }
