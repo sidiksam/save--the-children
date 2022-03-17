@@ -6,7 +6,16 @@
 
 <script>
 export default {
-
+ data() {
+    return {
+      
+    }
+  },
+    head() {
+    return {
+      title: 'Help a child ',
+    }
+  },
 }
 </script>
 

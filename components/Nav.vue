@@ -12,8 +12,8 @@
                     <div class="md:mt-2 -ml-14 relative flex items-center">
                       <p class="py-4">
                         <img
-                          class="w-56 h-42 object-cover"
-                          src="~/assets/images/logo4.jpeg"
+                          class="w-40 pb-4 h-40 object-cover"
+                          src="~/assets/images/logo22.png"
                           alt
                         />
                       </p>
@@ -24,8 +24,8 @@
                     <div class="md:mt-2 -ml-1 py-2 relative flex items-center">
                       <p class="py-4">
                         <img
-                          class="w-24 h-24 object-cover"
-                          src="~/assets/images/logo4.jpeg"
+                          class="w-20 h-20 pl-2 pb-2 object-cover"
+                          src="~/assets/images/logo22.png"
                           alt
                         />
                       </p>

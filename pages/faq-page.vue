@@ -14,7 +14,7 @@ export default {
   },
     head() {
     return {
-      title: 'Faq-page',
+      title: 'Faq',
     }
   },
 }
