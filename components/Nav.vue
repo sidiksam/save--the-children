@@ -2,10 +2,11 @@
 <template>
   <div class>
     <section class="bg-yellow-300 ">
-      <nav class>
+      <nav >
         <div>
           <div>
             <div class="container mx-auto">
+              <!-- Parent -->
               <div class="md:mx-24 -mt-6 -mb-8  flex-wrap flex items-center justify-between">
                 <div>
                   <nuxt-link to="/" class="hidden md:block">
