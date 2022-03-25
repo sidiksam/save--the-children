@@ -49,7 +49,7 @@
                       </div>
                     </nav>
                   </nuxt-link>
-                  <!-- Movile view -->
+                  <!-- Movile view  ... -->
                    <nuxt-link to="#" class="block md:hidden">
                     <nav>
                       <div class>
