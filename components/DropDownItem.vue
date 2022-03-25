@@ -10,7 +10,7 @@
               <el-dropdown>
                 <span class="el-dropdown-link">
                   <nuxt-link to="/about-page" class="text-xl font-bold">
-                    Who We Are
+                    About Us
                     <i class="el-icon-arrow-right el-icon--right"></i>
                   </nuxt-link>
                 </span>
@@ -51,7 +51,7 @@
                     <i class="el-icon-arrow-right el-icon--right"></i>
                   </div>
                 </span>
-                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/education-page">
                     <el-dropdown-item class="dropdown-item">Education</el-dropdown-item>
                   </nuxt-link>
@@ -64,7 +64,7 @@
                   <nuxt-link to="/health-page">
                     <el-dropdown-item class="dropdown-item">Health</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu>
+                </el-dropdown-menu> -->
               </el-dropdown>
             </div>
           </div>
@@ -74,19 +74,22 @@
             <div>
               <el-dropdown>
                 <span class="el-dropdown-link">
-                  <div class="text-xl font-bold">
+                   <nuxt-link to="/image-blog">
+                    <div class="text-xl font-bold">
                     Blog
                     <i class="el-icon-arrow-right el-icon--right"></i>
                   </div>
+                  </nuxt-link>
+                 
                 </span>
-                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/image-blog">
                     <el-dropdown-item class="dropdown-item">Image Blogs</el-dropdown-item>
                   </nuxt-link>
                   <nuxt-link to="/video-blog">
                     <el-dropdown-item class="dropdown-item">Video Blogs</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu>
+                </el-dropdown-menu> -->
               </el-dropdown>
             </div>
           </div>
@@ -182,7 +185,7 @@
               <el-dropdown>
                 <span class="el-dropdown-link">
                   <nuxt-link to="/about-page" class="text-sm font-bold ">
-                    Who We Are
+                  About Us
                     <i class="md:el-icon-arrow-right el-icon--right"></i>
                   </nuxt-link>
                 </span>
@@ -201,7 +204,7 @@
                     <i class="md:el-icon-arrow-right el-icon--right"></i>
                   </div>
                 </span>
-                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/education-page">
                     <el-dropdown-item class="dropdown-item">Education</el-dropdown-item>
                   </nuxt-link>
@@ -214,7 +217,7 @@
                   <nuxt-link to="/health-page">
                     <el-dropdown-item class="dropdown-item">Health</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu>
+                </el-dropdown-menu> -->
               </el-dropdown>
             </div>
           </div>
@@ -224,19 +227,22 @@
             <div>
               <el-dropdown>
                 <span class="el-dropdown-link">
-                  <div class="text-sm font-bold">
+                  
+                    <nuxt-link to="/image-blog">
+                   <div class="text-sm font-bold">
                     Blog
                     <i class="md:el-icon-arrow-right el-icon--right"></i>
                   </div>
+                  </nuxt-link>
                 </span>
-                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/image-blog">
                     <el-dropdown-item class="dropdown-item">Image Blogs</el-dropdown-item>
                   </nuxt-link>
                   <nuxt-link to="/video-blog">
                     <el-dropdown-item class="dropdown-item">Video Blogs</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu>
+                </el-dropdown-menu> -->
               </el-dropdown>
             </div>
           </div>

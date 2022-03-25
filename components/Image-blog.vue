@@ -7,7 +7,7 @@
         </p>
         <div class="container mx-auto">
           <p class="md:text-5xl font-bold md:-mt-60 md:mx-40 mx-8 -mt-8">
-            <span class="bg-white px-3 pb-2 rounded">Blog Images</span>
+            <span class="bg-white px-3 pb-2 rounded">Blog </span>
           </p>
         </div>
       </div>
