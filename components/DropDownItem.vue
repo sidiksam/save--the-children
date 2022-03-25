@@ -5,8 +5,34 @@
         <div class="flex justify-between items-center">
           <!-- 1 -->
           <div>
+            <div>
+              <el-dropdown>
+                <span class="el-dropdown-link">
+                  <nuxt-link to="/">
+                    <div class="text-xl font-bold">
+                      Home
+                      <!-- <i class="el-icon-arrow-right el-icon--right"></i> -->
+                    </div>
+                  </nuxt-link>
+                </span>
+                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                  <nuxt-link to="/education-page">
+                    <el-dropdown-item class="dropdown-item">Education</el-dropdown-item>
+                  </nuxt-link>
+                  <nuxt-link to="/child-protection">
+                    <el-dropdown-item class="dropdown-item">Child protection</el-dropdown-item>
+                  </nuxt-link>
+                  <nuxt-link to="/livelihood-page">
+                    <el-dropdown-item class="dropdown-item">Livelihood</el-dropdown-item>
+                  </nuxt-link>
+                  <nuxt-link to="/health-page">
+                    <el-dropdown-item class="dropdown-item">Health</el-dropdown-item>
+                  </nuxt-link>
+                </el-dropdown-menu>-->
+              </el-dropdown>
+            </div>
             <!-- Who We are -->
-            <div class>
+            <!-- <div class>
               <el-dropdown>
                 <span class="el-dropdown-link">
                   <nuxt-link to="/about-page" class="text-xl font-bold">
@@ -14,7 +40,7 @@
                     <i class="el-icon-arrow-right el-icon--right"></i>
                   </nuxt-link>
                 </span>
-                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                           <nuxt-link to="#">
                             <el-dropdown-item class="dropdown-item">Why Save the Children?</el-dropdown-item>
                           </nuxt-link>
@@ -36,21 +62,21 @@
                           <nuxt-link to="#">
                             <el-dropdown-item class="dropdown-item">Financial Tnformation</el-dropdown-item>
                           </nuxt-link>
-                </el-dropdown-menu>-->
+                </el-dropdown-menu>
               </el-dropdown>
-            </div>
+            </div>-->
           </div>
           <!-- 2 -->
           <div>
             <!-- Items -->
             <div>
               <el-dropdown>
-                <span class="el-dropdown-link">
+               <nuxt-link to="/about-page"> <span class="el-dropdown-link">
                   <div class="text-xl font-bold">
-                    What we do
-                    <i class="el-icon-arrow-right el-icon--right"></i>
+                   About US
+                    <!-- <i class="el-icon-arrow-right el-icon--right"></i> -->
                   </div>
-                </span>
+                </span></nuxt-link>
                 <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/education-page">
                     <el-dropdown-item class="dropdown-item">Education</el-dropdown-item>
@@ -64,7 +90,7 @@
                   <nuxt-link to="/health-page">
                     <el-dropdown-item class="dropdown-item">Health</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu> -->
+                </el-dropdown-menu>-->
               </el-dropdown>
             </div>
           </div>
@@ -74,13 +100,12 @@
             <div>
               <el-dropdown>
                 <span class="el-dropdown-link">
-                   <nuxt-link to="/image-blog">
+                  <nuxt-link to="/image-blog">
                     <div class="text-xl font-bold">
-                    Blog
-                    <i class="el-icon-arrow-right el-icon--right"></i>
-                  </div>
+                      Blog
+                      <!-- <i class="el-icon-arrow-right el-icon--right"></i> -->
+                    </div>
                   </nuxt-link>
-                 
                 </span>
                 <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/image-blog">
@@ -89,7 +114,7 @@
                   <nuxt-link to="/video-blog">
                     <el-dropdown-item class="dropdown-item">Video Blogs</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu> -->
+                </el-dropdown-menu>-->
               </el-dropdown>
             </div>
           </div>
@@ -101,7 +126,7 @@
                 <span class="el-dropdown-link">
                   <nuxt-link to="/help-a-child" class="text-xl font-bold">
                     Help a Child
-                    <i class="el-icon-arrow-right el-icon--right"></i>
+                    <!-- <i class="el-icon-arrow-right el-icon--right"></i> -->
                   </nuxt-link>
                 </span>
                 <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
@@ -124,13 +149,13 @@
           </div>
           <!-- 5 -->
           <div>
-            <!-- -->
+            <!-- FAQ-->
             <div>
               <el-dropdown>
                 <span class="el-dropdown-link">
                   <nuxt-link to="/faq-page" class="text-xl font-bold">
                     FAQ
-                    <i class="el-icon-arrow-right el-icon--right"></i>
+                    <!-- <i class="el-icon-arrow-right el-icon--right"></i> -->
                   </nuxt-link>
                 </span>
                 <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
@@ -158,7 +183,7 @@
       </div>
     </div>
     <!-- Mobile view -->
-    <nav class="flex flex-wrap items-center justify-end  -mt-3 px-3 text-lg text-gray-300   md:hidden">
+    <nav class="flex flex-wrap items-center justify-end -mt-3 px-3 text-lg text-gray-300 md:hidden">
       <svg
         id="menu-button"
         xmlns="http://www.w3.org/2000/svg"
@@ -175,36 +200,46 @@
         />
       </svg>
 
-      <div id="menu" class="hidden w-full md:flex mx-4  flex-wrap md:items-center md:w-auto">
+      <div id="menu" class="hidden w-full md:flex mx-4 flex-wrap md:items-center md:w-auto">
         <div class="pt-4 text-base text-white md:flex md:justify-between md:pt-0">
-            <div class="flex-wrap justify-start leading-10 items-center">
-          <!-- 1 -->
-          <div>
-            <!-- Who We are -->
-            <div >
-              <el-dropdown>
-                <span class="el-dropdown-link">
-                  <nuxt-link to="/about-page" class="text-sm font-bold ">
-                  About Us
-                    <i class="md:el-icon-arrow-right el-icon--right"></i>
-                  </nuxt-link>
-                </span>
-               
-              </el-dropdown>
-            </div>
-          </div>
-          <!-- 2 -->
-          <div>
-            <!-- Items -->
+          <div class="flex-wrap justify-start leading-10 items-center">
+            <!-- 1 -->
             <div>
+              <!-- Who We are -->
+              <div>
+                <el-dropdown>
+                  <span class="el-dropdown-link">
+                    <nuxt-link to="/" class="text-sm font-bold">
+                      Home
+                      <!-- <i class="md:el-icon-arrow-right el-icon--right"></i> -->
+                    </nuxt-link>
+                  </span>
+                </el-dropdown>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div>
+              <div>
+                <el-dropdown>
+                  <span class="el-dropdown-link">
+                    <nuxt-link to="/about-page" class="text-sm font-bold">
+                      About Us
+                      <!-- <i class="md:el-icon-arrow-right el-icon--right"></i> -->
+                    </nuxt-link>
+                  </span>
+                </el-dropdown>
+              </div>
+
+              <!-- Items -->
+              <!-- <div>
               <el-dropdown>
                 <span class="el-dropdown-link">
                   <div class="text-sm font-bold">
-                    What we do
+                    About Us
                     <i class="md:el-icon-arrow-right el-icon--right"></i>
                   </div>
                 </span>
-                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/education-page">
                     <el-dropdown-item class="dropdown-item">Education</el-dropdown-item>
                   </nuxt-link>
@@ -217,72 +252,71 @@
                   <nuxt-link to="/health-page">
                     <el-dropdown-item class="dropdown-item">Health</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu> -->
+                </el-dropdown-menu>
               </el-dropdown>
+              </div>-->
             </div>
-          </div>
-          <!-- 3 -->
-          <div>
-            <!-- Items -->
+            <!-- 3 -->
             <div>
-              <el-dropdown>
-                <span class="el-dropdown-link">
-                  
+              <!-- Items -->
+              <div>
+                <el-dropdown>
+                  <span class="el-dropdown-link">
                     <nuxt-link to="/image-blog">
-                   <div class="text-sm font-bold">
-                    Blog
-                    <i class="md:el-icon-arrow-right el-icon--right"></i>
-                  </div>
-                  </nuxt-link>
-                </span>
-                <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
+                      <div class="text-sm font-bold">
+                        Blog
+                        <!-- <i class="md:el-icon-arrow-right el-icon--right"></i> -->
+                      </div>
+                    </nuxt-link>
+                  </span>
+                  <!-- <el-dropdown-menu slot="dropdown" class="el-dropdown-menu">
                   <nuxt-link to="/image-blog">
                     <el-dropdown-item class="dropdown-item">Image Blogs</el-dropdown-item>
                   </nuxt-link>
                   <nuxt-link to="/video-blog">
                     <el-dropdown-item class="dropdown-item">Video Blogs</el-dropdown-item>
                   </nuxt-link>
-                </el-dropdown-menu> -->
-              </el-dropdown>
+                  </el-dropdown-menu>-->
+                </el-dropdown>
+              </div>
             </div>
-          </div>
-          <!-- 4 -->
-          <div>
-            <!-- Items -->
+            <!-- 4 -->
             <div>
-              <el-dropdown>
-                <span class="el-dropdown-link">
-                  <nuxt-link to="/help-a-child" class="text-sm font-bold">
-                    Help a Child
-                    <i class="md:el-icon-arrow-right el-icon--right"></i>
-                  </nuxt-link>
-                </span>
-                
-              </el-dropdown>
+              <!-- Items -->
+              <div>
+                <el-dropdown>
+                  <span class="el-dropdown-link">
+                    <nuxt-link to="/help-a-child" class="text-sm font-bold">
+                      Help a Child
+                      <!-- <i class="md:el-icon-arrow-right el-icon--right"></i> -->
+                    </nuxt-link>
+                  </span>
+                </el-dropdown>
+              </div>
             </div>
-          </div>
-          <!-- 5 -->
-          <div>
-            <!-- -->
+            <!-- 5 -->
             <div>
-              <el-dropdown>
-                <span class="el-dropdown-link">
-                  <nuxt-link to="/faq-page" class="text-sm font-bold">
-                    FAQ
-                    <i class="md:el-icon-arrow-right el-icon--right"></i>
-                  </nuxt-link>
-                </span>
-                
-              </el-dropdown>
+              <!-- -->
+              <div>
+                <el-dropdown>
+                  <span class="el-dropdown-link">
+                    <nuxt-link to="/faq-page" class="text-sm font-bold">
+                      FAQ
+                      <!-- <i class="md:el-icon-arrow-right el-icon--right"></i> -->
+                    </nuxt-link>
+                  </span>
+                </el-dropdown>
+              </div>
+            </div>
+            <!-- Donate Buttpon -->
+            <div>
+              <nuxt-link to="/donationForm">
+                <button
+                  class="primary-color mt-2 py-1 px-8 rounded text-sm font-bold text-white"
+                >Donate</button>
+              </nuxt-link>
             </div>
           </div>
-          <!-- Donate Buttpon -->
-          <div>
-            <nuxt-link to="/donationForm">
-              <button class="primary-color mt-2 py-1 px-8 rounded text-sm font-bold text-white">Donate</button>
-            </nuxt-link>
-          </div>
-        </div>
         </div>
       </div>
     </nav>
