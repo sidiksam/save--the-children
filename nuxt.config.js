@@ -1,5 +1,13 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+
+  // Servrt config 
+  server: {
+    host: '0.0.0.0',
+    port: process.env.PORT || 8080,
+    timing: false
+  },
+  
   head: {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
