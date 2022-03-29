@@ -6,7 +6,7 @@
           <div class="md:flex flex-wrap pt-16 footer-text justify-center">
             <!-- our mission -->
             <div class="md:w-1/4">
-              <p class="md:text-3xl text-xl  text-white font-bold">Our Mission</p>
+              <p class="md:text-3xl text-xl text-white font-bold">Our Mission</p>
               <p
                 class="pt-2"
               >Children’s Advocacy Network (CAN - SL) believes every child deserves a future.</p>
@@ -21,23 +21,24 @@
               <nuxt-link to="/about-page">
                 <p>About Us</p>
               </nuxt-link>
-              <nuxt-link to="/education-page">Education</nuxt-link>
+              <nuxt-link to="/education-page">
+                <!-- <p>Education</p> -->
+              </nuxt-link>
               <nuxt-link to="/child-protection">
-                <p>Child Protection</p>
+                <!-- <p>Child Protection</p> -->
               </nuxt-link>
               <nuxt-link to="/livelihood-page">
-                <p>Livelihood</p>
+                <!-- <p>Livelihood</p> -->
               </nuxt-link>
               <nuxt-link to="/faq-page">
                 <p>Frequently Asked Questions</p>
               </nuxt-link>
               <nuxt-link to="/health-page">
-                <p>Health</p>
+                <!-- <p>Health</p> -->
               </nuxt-link>
               <nuxt-link to="/help-a-child">
                 <p>Help a Child</p>
               </nuxt-link>
-              
             </div>
 
             <!-- contact ur -->
@@ -80,8 +81,10 @@
     <!-- 
             copy right
     -->
-    <div class="flex justify-center   md:pb-8 pb-24 md:pt-6 w-full bg-copy-right copy-right">
-      <p class="md:text-base text-sm md:mx-0 mx-8">Copyright &copy;2022 Children’s Advocacy Network (CAN - SL).</p>
+    <div class="flex justify-center md:pb-8 pb-24 md:pt-6 w-full bg-copy-right copy-right">
+      <p
+        class="md:text-base text-sm md:mx-0 mx-8"
+      >Copyright &copy;2022 Children’s Advocacy Network (CAN - SL).</p>
     </div>
   </div>
 </template>
