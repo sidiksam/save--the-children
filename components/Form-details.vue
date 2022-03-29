@@ -165,29 +165,29 @@
             </div>
           </div>
           <!-- Aggrement -->
-          <div class="flex items-start">
+          <div class="flex  items-center">
             <p class="pr-3 pt-1">
               <input type="checkbox" class="text-3xl" />
             </p>
-            <p>I want to help even more by covering the cost of the transaction fee on my donation. My total will be le25,000</p>
+            <p>I accept to do the donation.</p>
           </div>
           <div>
-            <p class="px-3 pt-3">
+            <!-- <p class="px-3 pt-3">
               See if your employer will match your donation!
               Enter the name of your company
-            </p>
+            </p> -->
           </div>
         </el-form>
 
         <div class="pt-8">
           <nuxt-link to="#">
             <button
-              class="primary-color py-2 w-full rounded text-lg font-bold text-white"
+              class="primary-color py-2 w-full focus:outline-none rounded text-lg font-bold text-white"
             >Donate Monthly</button>
           </nuxt-link>
         </div>
         <!-- Parahraph -->
-        <div class="text-sm">
+        <!-- <div class="text-sm">
           <p
             class="pt-8"
           >Once you donate, an account with a temporary password will be created for you in our Supporter Center. Simply log in to securely view this as well as any future gifts and so much more. You'll also start receiving email news of your generosity in action, including inspiring children's stories, emergency alerts and ways to get involved.</p>
@@ -200,7 +200,7 @@
           <p
             class="pt-8"
           >Monthly gifts will be matched for the first monthly installment only. If we meet our match goal prior to receiving your one-time or monthly donation, your donation will not be matched but will still go to support our programs.</p>
-        </div>
+        </div> -->
       </div>
     </section>
   </div>
